@@ -1,0 +1,35 @@
+[workspace]
+resolver = "2"
+members = [
+    "kernel",
+    "api",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Ricardo Juvencio Oliveira"]
+license = "MIT"
+repository = "https://github.com/ricardojuvencio/gt-memory"
+
+[workspace.dependencies]
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Async runtime
+tokio = { version = "1.0", features = ["full"] }
+
+# Unique identifiers
+uuid = { version = "1.0", features = ["v4", "serde"] }
+
+# Date/Time
+chrono = { version = "0.4", features = ["serde"] }
+
+# Error handling
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }

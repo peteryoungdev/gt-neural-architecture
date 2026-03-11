@@ -5,7 +5,7 @@
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
 
-## 🧠 Visão Geral
+##  Visão Geral
 
 O **GT-Memory** implementa a **Arquitetura de Memória Híbrida Grafo-Árvore (G-T)** para sistemas cognitivos de IA. Combina:
 
@@ -32,7 +32,7 @@ O **GT-Memory** implementa a **Arquitetura de Memória Híbrida Grafo-Árvore (G
 └─────────────────────────────────────────────────┘
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Pré-requisitos
 
@@ -88,7 +88,7 @@ curl -X POST http://localhost:3000/memory/query \
   }'
 ```
 
-## 📦 Estrutura do Projeto
+## 🍪 Estrutura do Projeto
 
 ```
 gt-memory/
@@ -129,7 +129,7 @@ gt-memory/
 - Suporte a offset para sub-árvores (Ψ_offset)
 - Ψ-Share para deduplicação estrutural
 
-## 📊 Benchmarks
+## Benchmarks
 
 | Operação | Complexidade | Target |
 |----------|--------------|--------|
@@ -153,7 +153,7 @@ gt-memory/
 
 ## 📄 Licença
 
-MIT License - Ricardo Juvencio Oliveira
+MIT License - Char Software
 
 ## 📚 Referências
 
